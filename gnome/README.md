@@ -1,8 +1,9 @@
-Extensions:
-Disable Workspace Switch Animation
-Disable Workspace Switcher Popup
-Hide Top Bar
-Horizontal Workspaces
+Extensions:  
+Disable Workspace Switch Animation  
+Disable Workspace Switcher Popup  
+Hide Top Bar  
+Horizontal Workspaces  
 
-Load config:
+
+Load config:  
 cat gnome.conf | dconf load /
