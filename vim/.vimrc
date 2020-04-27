@@ -1,3 +1,7 @@
+" Load defaults
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
 " vim-plug config
 call plug#begin('~/.vim/plugged')
 " plugins
@@ -28,6 +32,9 @@ autocmd FileType go setlocal completeopt-=preview
 
 " Use deoplete
 let g:deoplete#enable_at_startup = 1
+
+" Ruler
+set ruler
 
 " Solarized
 syntax enable
