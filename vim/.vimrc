@@ -6,7 +6,7 @@ source $VIMRUNTIME/defaults.vim
 call plug#begin('~/.vim/plugged')
 " plugins
 " Python
-Plug 'nvie/vim-flake8'
+" Plug 'nvie/vim-flake8'
 Plug 'davidhalter/jedi-vim'
 " Go
 Plug 'fatih/vim-go'
