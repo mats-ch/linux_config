@@ -23,11 +23,21 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'zeek/vim-zeek'
 " Indent stuff
 Plug 'Yggdroot/indentLine'
+" Saltstack
+Plug 'saltstack/salt-vim'
+" Jinja
+Plug 'Glench/Vim-Jinja2-Syntax'
 " vim-plug end
 call plug#end()
 
 " No errorbells
 set noerrorbells
+
+" Syntax
+syntax on
+set modeline
+set nocompatible
+filetype plugin indent on
 
 " No doc for autocomplete
 autocmd FileType python setlocal completeopt-=preview
@@ -53,3 +63,9 @@ set bg=dark
 
 " Fix yaml indent
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+" Handle mouse actions
+set mouse=
+
+" Jinja syntaxer
+let g:sls_use_jinja_syntax = 1
