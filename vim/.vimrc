@@ -57,6 +57,9 @@ let g:deoplete#enable_at_startup = 1
 " Ruler
 set ruler
 
+" Split below by default
+set splitbelow
+
 " Solarized
 syntax enable
 colorscheme solarized
