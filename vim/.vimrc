@@ -27,6 +27,11 @@ Plug 'Yggdroot/indentLine'
 Plug 'saltstack/salt-vim'
 " Jinja
 Plug 'Glench/Vim-Jinja2-Syntax'
+" Airline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+" Fugitive
+Plug 'tpope/vim-fugitive'
 " vim-plug end
 call plug#end()
 
@@ -69,3 +74,7 @@ set mouse=
 
 " Jinja syntaxer
 let g:sls_use_jinja_syntax = 1
+
+" Airline theme
+let g:airline_theme='solarized'
+let g:airline_powerline_fonts = 1
