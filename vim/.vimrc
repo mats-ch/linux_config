@@ -81,3 +81,6 @@ let g:sls_use_jinja_syntax = 1
 " Airline theme
 let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
+
+" Don't mess with json
+let g:vim_json_conceal=0
