@@ -4,5 +4,6 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvi
   
 pip install "python-lsp-server[all]"  
 go install golang.org/x/tools/gopls@latest  
+sudo apt-get install ripgrep  
   
 :PackerInstall
