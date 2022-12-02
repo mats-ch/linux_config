@@ -67,3 +67,4 @@ require("lspconfig").gopls.setup({
 		},
 	},
 })
+require'lspconfig'.salt_ls.setup{}
