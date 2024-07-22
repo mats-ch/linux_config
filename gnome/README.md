@@ -8,6 +8,8 @@ Horizontal Workspaces
 Load config:  
 cat gnome.conf | dconf load /
 
-Remove dock:
+Remove dock:  
 sudo apt remove gnome-shell-extension-ubuntu-dock
 
+Settings:  
+`gsettings set org.gnome.desktop.interface enable-animations false`  
